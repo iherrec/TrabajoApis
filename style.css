@@ -1,29 +1,65 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+   /* background: linear-gradient(135deg, #1c1c1c, #383838); */
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url("fondocine.jpg"); 
+    background-size: cover;       
+    background-position: center;  
+    background-repeat: no-repeat; 
+    height: 100vh;
+}
 
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-            text-align: center;
-        }
+h1 {
+    margin-top: 30px;
+}
 
-        #contenedor {
-            background-color: white;
-            width: 300px;
-            margin: 50px auto;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px gray;
-        }
+input {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    width: 200px;
+}
 
-        img {
-            width: 200px;
-            border-radius: 5px;
-        }
+button {
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ff4c4c;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
 
-        input, button {
-            padding: 8px;
-            margin: 5px;
-        }
+button:hover {
+    background-color: #ff1f1f;
+    transform: scale(1.05);
+}
 
-        button {
-            cursor: pointer;
-        }
+#contenedor {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    width: 350px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    transition: 0.3s;
+}
+
+#contenedor:hover {
+    transform: scale(1.02);
+}
+
+img {
+    width: 220px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+p {
+    margin: 8px 0;
+}
